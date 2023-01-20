@@ -29,7 +29,7 @@ spec:
           value: "passxxx"
         - name: DT_CUSTOM_PROP
           value: Environment=Dev
-        - name: DT_CUSTOM_TAGS
+        - name: DT_TAGS
           value: hotday customer=acme
         resources:
           requests:
