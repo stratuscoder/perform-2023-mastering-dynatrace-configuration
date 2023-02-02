@@ -7,7 +7,6 @@ spec:
   selector:
     matchLabels:
       app: pricingservice
-      hands: onTraining
   template:
     metadata:
       labels:
@@ -27,10 +26,6 @@ spec:
           value: "userxxx"
         - name: RABBITMQ_PASSWORD
           value: "passxxx"
-        - name: DT_CUSTOM_PROP
-          value: Environment=Dev
-        - name: DT_TAGS
-          value: hotday customer=acme
         resources:
           requests:
             cpu: 100m
