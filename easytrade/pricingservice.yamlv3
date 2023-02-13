@@ -7,11 +7,11 @@ spec:
   selector:
     matchLabels:
       app: pricingservice
-      hands: onTraining
   template:
     metadata:
       labels:
         app: pricingservice
+      hands: onTraining
     spec:
       containers:
       - name: pricingservice
