@@ -11,7 +11,7 @@ spec:
     metadata:
       labels:
         app: pricingservice
-      hands: onTraining
+        hands: onTraining
     spec:
       containers:
       - name: pricingservice
